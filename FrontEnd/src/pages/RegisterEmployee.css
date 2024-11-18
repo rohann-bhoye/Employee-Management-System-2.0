@@ -1,0 +1,89 @@
+
+ .addemployeebtn{
+    color: #ff4d4d;
+ }
+  
+  .register-employee {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    margin-left: 0.3rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .register-employee {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }

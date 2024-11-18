@@ -1,0 +1,233 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  padding: 30px;
+  background-color: #ffffff; 
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  max-width: 1200px;
+  margin: 30px auto; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.Title {
+  text-align: center;
+  color: #007bff; 
+  margin-bottom: 20px;
+  font-size: 2.5rem; 
+}
+
+.dashboard-statistics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; 
+}
+
+.stat-card {
+  background: linear-gradient(145deg, #e6f7ff, #ffffff); 
+  color: #007bff; 
+  padding: 20px;
+  border-radius: 15px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.8); 
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.stat-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.stat-card p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.employee-management {
+  margin-top: 20px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  transition: background-color 0.3s; 
+}
+
+.employee-table th {
+  background-color: #007bff; 
+  color: white;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1; 
+}
+
+.Actionbutton {
+  display: flex;
+  gap: 10px; 
+  justify-content: flex-end; 
+  margin-top: 10px; 
+}
+
+.btn-edit {
+  padding: 10px 15px;
+  background-color: #ffc107; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-weight: bold; 
+}
+
+.btn-edit:hover {
+  background-color: #e0a800; 
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-view {
+  padding: 10px 15px;
+  background-color: #17a2b8; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-weight: bold; 
+}
+
+.btn-view:hover {
+  background-color: #138496; 
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn4 {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn4:disabled {
+  background-color: #ccc; 
+  cursor: not-allowed;
+}
+
+.btn4:hover:not(:disabled) {
+  background-color: #0056b3; 
+  transform: translateY(-2px); 
+}
+
+.department-management {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reports-section {
+  margin-top: 20px;
+}
+
+.quick-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn2, .btn3 {
+  padding: 10px 20px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.btn2:hover, .btn3:hover {
+  background-color: #218838; 
+  transform: translateY(-2px); 
+}
+
+@media (max-width: 768px) {
+  .dashboard-statistics {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .stat-card {
+      width: 80%; 
+      margin-bottom: 15px;
+  }
+
+  .department-management,
+  .quick-links {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .btn2, .btn3 {
+      width: 100%;
+      margin: 5px 0;
+  }
+}
+.btn-delete {
+  padding: 10px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+.btn-add-employee,
+.btn-view-all {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-add-employee:hover,
+.btn-view-all:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,76 @@
+.manage-department {
+  padding: 20px;
+}
+
+.department-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.department-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.department-form input {
+  padding: 10px;
+  width: 150px;
+}
+
+.department-form .btn-add,
+.department-form .btn-save {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.department-form .btn-save {
+  background-color: #FF9800;
+}
+
+.department-list {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.department-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.department-list th,
+.department-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.department-list .btn-edit {
+  background-color: #2196F3;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.department-list .btn-delete {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-back {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

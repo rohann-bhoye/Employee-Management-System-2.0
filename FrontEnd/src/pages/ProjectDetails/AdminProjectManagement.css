@@ -1,0 +1,133 @@
+.admin-project-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.project-table th,
+.project-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.project-table th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-table tr {
+  transition: all 0.2s ease;
+}
+
+.project-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.project-table td {
+  border-right: 1px solid #ddd;
+}
+
+.project-table td:last-child {
+  border-right: none;
+}
+
+/* Pagination Styles */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-controls button {
+  background-color: #007bff; /* Button background color */
+  color: white;              /* Button text color */
+  border: none;              /* No border */
+  border-radius: 4px;       /* Rounded corners */
+  padding: 10px 15px;       /* Padding for the button */
+  margin: 0 5px;            /* Spacing between buttons */
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.pagination-controls button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pagination-controls button:disabled {
+  background-color: #ccc;    /* Grey color for disabled button */
+  cursor: not-allowed;        /* Not-allowed cursor */
+  opacity: 0.7;              /* Slightly transparent */
+}
+
+.pagination-controls span {
+  margin: 0 15px;            /* Margin for the page indicator */
+  font-weight: bold;         /* Bold font for page info */
+}

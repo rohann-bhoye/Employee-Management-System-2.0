@@ -1,0 +1,149 @@
+/* General styles */
+.employeedashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Add Employee Button */
+.add-employee-btn {
+    background-color: #28a745; /* Green color */
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.add-employee-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* View Employee Button */
+.view-employee-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    margin-right: 5px;
+}
+
+.view-employee-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Edit Employee Button */
+.edit-employee-btn {
+    background-color: #ffc107; /* Yellow color */
+    color: white;
+    margin-right: 5px;
+}
+
+.edit-employee-btn:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Delete Employee Button */
+.delete-employee-btn {
+    background-color: #dc3545; /* Red color */
+    color: white;
+}
+
+.delete-employee-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Search Bar */
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Filter Select */
+.filter-select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Employee Table */
+.employees-table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.employees-table th, .employees-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.employees-table th {
+    background-color: #007bff; /* Blue color */
+    color: white;
+}
+
+.employees-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for alternate rows */
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-btn {
+    background-color: #6c757d; /* Gray color */
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+.pagination-btn:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Specific styles for Previous and Next buttons */
+.prev-btn {
+    background-color: #17a2b8; /* Cyan color */
+}
+
+.prev-btn:hover {
+    background-color: #138496; /* Darker cyan on hover */
+}
+
+.next-btn {
+    background-color: #28a745; /* Green color */
+}
+
+.next-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40; /* Dark gray */
+    color: white;
+}

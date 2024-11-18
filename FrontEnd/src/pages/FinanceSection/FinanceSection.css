@@ -1,0 +1,74 @@
+.finance-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.finance-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.finance-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.finance-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.finance-detail strong {
+  color: #555;
+}
+
+.duration-selector,
+.date-picker-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button.download-payslip {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.download-payslip:hover {
+  background-color: #218838;
+}
+
+button.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+button.edit-button:hover {
+  background-color: #0069d9;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}

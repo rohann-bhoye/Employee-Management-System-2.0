@@ -1,0 +1,86 @@
+/* Project History Container */
+.project-history {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+  margin: 20px 0;
+}
+
+.nav-button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.pagination .active {
+  background-color: #0056b3; /* Highlight active page */
+  color: white;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,94 @@
+
+.finance-edit-form {
+  background-color: #f9f9f9; 
+  padding: 20px;
+  max-width: 500px; 
+  margin: 20px auto; 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 2.58rem;
+  margin-top: 3rem;
+}
+
+
+/* Form title styling */
+.finance-edit-form h3 {
+  text-align: center; 
+  color: #333; 
+  margin-bottom: 20px; 
+  font-size: 1.5rem;
+}
+
+
+.field-group {
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px; 
+  margin-bottom: 15px; 
+}
+
+/* Labels for input fields */
+.finance-edit-form label {
+  font-weight: bold; 
+  color: #333;
+  margin-bottom: 5px; 
+}
+
+/* Each input container takes 50% of the width in the field group */
+.field-group .field {
+  flex: 1; 
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Styling for text inputs */
+.finance-edit-form input[type="text"],
+.finance-edit-form textarea {
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+  box-sizing: border-box; 
+}
+
+/* Styling for the error messages */
+.finance-edit-form .error {
+  color: #d9534f; 
+  font-size: 0.9rem; 
+  margin-top: 5px;
+}
+
+/* Styling for the Save and Cancel buttons */
+.button-group {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.save-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-button {
+  background-color: #d9534f;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #c9302c;
+}

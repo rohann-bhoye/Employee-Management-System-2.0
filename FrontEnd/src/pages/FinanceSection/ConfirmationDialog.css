@@ -1,0 +1,26 @@
+
+.confirmation-dialog {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+
+.confirm-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

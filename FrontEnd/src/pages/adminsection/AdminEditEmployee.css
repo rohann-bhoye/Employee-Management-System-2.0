@@ -1,0 +1,97 @@
+/* EditEmployee.css */
+
+.employee-form-container {
+    max-width: 800px;
+    /* Set a max-width for the form container */
+    margin: 20px auto;
+    /* Center the form on the page */
+    padding: 30px;
+    /* Add padding around the form */
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center;
+    /* Center the header */
+    margin-bottom: 20px;
+    /* Space below the header */
+}
+
+.error-message {
+    color: red;
+    /* Red color for error messages */
+    text-align: center;
+    /* Center error messages */
+    margin-bottom: 20px;
+    /* Space below the error message */
+}
+
+.form-group {
+    margin-bottom: 30px;
+    /* Spacing between form groups */
+}
+
+.form-label {
+    font-weight: bold;
+    /* Make labels bold */
+}
+
+.submit-button {
+    display: block;
+    /* Ensure button takes the full width */
+    width: 100%;
+    /* Full-width button */
+    margin-top: 20px;
+    /* Space above the button */
+    padding: 10px;
+    /* Padding inside the button */
+}
+
+textarea {
+    resize: vertical;
+    /* Allow vertical resizing of textareas */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    border: 1px solid #ced4da;
+    /* Border styling */
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Padding for inputs */
+    width: 100%;
+    /* Full width inputs */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+textarea:focus {
+    border-color: #007bff;
+    /* Change border color for textarea on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+.form-control {
+    margin-top: 0.5rem;
+    /* Add space between label and input */
+}

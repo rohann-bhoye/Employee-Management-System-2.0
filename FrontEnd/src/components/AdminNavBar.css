@@ -1,0 +1,51 @@
+.admin-navbar {
+  background-color: #343a40; 
+  padding: 10px 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.logo {
+  color: #ffffff; 
+  font-size: 24px; 
+  font-weight: bold; 
+  text-decoration: none; 
+}
+
+.nav-links {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+
+.nav-item {
+  color: #ffffff; 
+  margin: 0 15px; 
+  text-decoration: none; 
+  font-size: 16px; 
+  transition: color 0.3s; 
+}
+
+.nav-item:hover {
+  color: #f8f9fa; 
+}
+
+.logout-btn {
+  background-color: #dc3545; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 8px 12px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.logout-btn:hover {
+  background-color: #c82333; 
+}

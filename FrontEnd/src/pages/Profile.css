@@ -1,0 +1,102 @@
+/* Profile.css */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.profile-edit-btn {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
+
+.profile-edit-btn:hover {
+    background: linear-gradient(135deg, #388E3C, #66BB6A);
+    transform: translateY(-3px);
+}
+
+.profile-box {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    border-left: 5px solid #4CAF50;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-box:hover {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Circular badge for Employee Information */
+.profile-box:before {
+    content: "Employee Information";
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    background-color: #4CAF50; 
+    padding: 10px 20px;
+    border-radius: 50%; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-item {
+    font-weight: bold;
+    color: #555;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .profile-box {
+        width: 95%;
+    }
+
+    .profile-box:before {
+        font-size: 16px;
+        top: -20px; 
+        padding: 8px 16px; 
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
